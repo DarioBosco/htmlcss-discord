@@ -47,6 +47,23 @@ body {
    padding: 5px 10px;
    font-size: 8px;
 }
+
+.grey {
+   background-color: rgb(230, 230, 230);
+}
+
+.wave {
+   background-image: url(../img/wave.svg);
+   height: 100px;
+   filter: opacity(0.1)
+}
+   /* TODO: Trovare il modo di renderla bianca */
+.whiteWave {
+   background-color: white;
+   border: 5px solid red;
+   height: 100px;
+   filter: opacity(0.1)
+}
 /* FINE COMMON */
 
 
@@ -153,23 +170,23 @@ main .mainBanner > .buttons > .openInBrowser {
    padding-top: 100px
 }
 
-.mainContent > .container > .mainInfos > img {
+.mainContent .mainInfos img {
    float: left;
    width: 50%;
 } 
 
-.mainContent > .container > .mainInfos > .text {
+.mainContent .mainInfos .text {
    float: left;
    width: 50%;
 } 
-.mainContent > .container > .mainInfos > .text > h2 {
+.mainContent .mainInfos .text h2 {
    font-size: 30px;
    padding: 0 0 25px 50px;
    width:60%;
    margin: 0 auto;
 }
 
-.mainContent > .container > .mainInfos > .text > p {
+.mainContent .mainInfos .text p {
    font-size: 14px;
    padding: 0 0 25px 50px;
    width: 60%;
@@ -177,7 +194,7 @@ main .mainBanner > .buttons > .openInBrowser {
    line-height: 1.5em;
 }
 
-.mainContent > .container >.mainInfos{
+.mainContent .mainInfos{
    padding: 100px 0;
 }
 
