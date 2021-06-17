@@ -10,17 +10,77 @@ body {
    font-family: Whitney, 'Helvetica Neue', sans-serif;
 }
 
-header {
-   background-image: url("../img/jumbo.png");
-   background-size: contain;
-   background-repeat: no-repeat;
+.container {
+   width: 75%;
+   margin: 0 auto;
+}
+
+.rnd-white {
+   text-decoration: none;
+   color: black;
+   background: white;
+   border-radius: 30px;
+   padding: 15px;
+}
+
+.rnd-black {
+   text-decoration: none;
+   color: white;
+   background: black;
+   border-radius: 20px;
+   padding: 10px;
 }
 /* FINE COMMON */
 
 
 
 /* INIZIO HEADER */
+header {
+   background-image: url("../img/jumbo.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
 
+/* Inizio Header Superiore */
+.upperHeader {
+   height: 100px;
+   line-height: 100px;
+}
+
+header > .container > .upperHeader > #logo,
+header > .container > .upperHeader > nav,
+header > .container > .upperHeader > .login-btn {
+   display: inline-block;
+   text-align: center;
+   vertical-align: middle;
+}
+
+header #logo,
+header .login-btn {
+   width: calc(100% / 6 - 5px);
+}
+
+header > .container > .upperHeader > nav {
+   width: calc(100% / 6 * 4);
+}
+
+header > .container > .upperHeader > nav > ul {
+   list-style: none;
+}
+
+header > .container > .upperHeader > nav > ul > li {
+   display: inline;
+   color: white;
+   text-decoration: none;
+}
+
+header > .container > .upperHeader > nav > ul > li > a {
+   color: white;
+   text-decoration: none;
+   padding: 0 15px
+}
+
+/* Fine Header Superiore */
 /* FINE HEADER */
 
 
@@ -39,6 +99,52 @@ header {
 
 
 /* INIZIO DEBUG */
+
+.debug #logo,
+.debug nav,
+.debug .login-btn {
+   /* border: 1px solid red; */
+   display: inline-block;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.debug ul {
+   list-style: none;
+}
+
+.debug ul li {
+   display: inline;
+   padding: 0 20px
+}
+
+.debug ul li a {
+   
+}
+
+.debug #logo,
+.debug .login-btn {
+   width: calc(100% / 6 - 5px);
+   /* float: left; */
+}
+
+.debug nav {
+   width: calc(100% / 6 * 4);
+   /* float: left; */
+}
+
+
+.upperHeader {
+   height: 100px;
+   line-height: 100px;
+}
+/* .debug .upperHeader::after {
+content: ''; 
+display: table;
+clear: both;
+} */
+
+
 
 
 
