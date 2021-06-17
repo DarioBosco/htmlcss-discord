@@ -36,27 +36,23 @@ body {
 
 /* INIZIO HEADER */
 header {
-   background-image: url("../img/jumbo.png");
-   background-size: cover;
-   background-repeat: no-repeat;
-   text-align: center;
+   background: #255EE9;
 }
 
-/* Inizio Header Superiore */
-.upperHeader {
+.wrapper {
    height: 100px;
    line-height: 100px;
-   margin-bottom: 20px;
 }
 
-header > .container > .upperHeader > #logo,
-header > .container > .upperHeader > nav,
-header > .container > .upperHeader > .login-btn {
+header > .container > .wrapper > #logo,
+header > .container > .wrapper > nav,
+header > .container > .wrapper > .login-btn {
    display: inline-block;
    text-align: center;
+   vertical-align: top;
 }
 #logo {
-   height: 30px
+   height: 100px
 }
 
 header #logo,
@@ -65,39 +61,54 @@ header .login-btn {
    text-align: center;
 }
 
-header > .container > .upperHeader > nav {
+header > .container > .wrapper > nav {
    width: calc(100% / 6 * 4);
 }
 
-header > .container > .upperHeader > nav > ul {
+header > .container > .wrapper > nav > ul {
    list-style: none;
+   line-height: 100px
 }
 
-header > .container > .upperHeader > nav > ul > li {
-   display: inline;
+header > .container > .wrapper > nav > ul > li {
+   display: inline-block;
    color: white;
    text-decoration: none;
+   font-size: 15px;
+   height: 100px;
+   line-height: 100px;
+   vertical-align: top;
 }
 
-header > .container > .upperHeader > nav > ul > li > a {
+header > .container > .wrapper > nav > ul > li > a {
    color: white;
    text-decoration: none;
-   padding: 0 15px
+   padding: 0 15px;
+   display: inline-block; 
+   vertical-align: top;
+   
 }
-/* Fine Header Superiore */
+/* FINE HEADER */
 
-/* Inzio Header Inferiore */
 
-header > .container > .lowerHeader {
-   color: white
+
+/* INIZIO MAIN */
+
+.mainBanner {
+   background-image: url("../img/jumbo.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: white;
+   text-align: center;
 }
 
-header > .container > .lowerHeader > h1 {
-   margin-bottom: 25px;
+main .mainBanner > h1 {
+   margin-bottom: 35px;
+   padding-top: 90px;
    font-size: 40px
 }
 
-header > .container > .lowerHeader > p {
+main .mainBanner > p {
    line-height: 1.5em;
 }
 
@@ -106,23 +117,15 @@ header > .container > .lowerHeader > p {
 
 }
 
-header > .container > .lowerHeader > .buttons >.downloadClient {
+main .mainBanner > .buttons >.downloadClient {
    display: inline;
 
 }
 
-header > .container > .lowerHeader > .buttons > .openInBrowser {
+main .mainBanner > .buttons > .openInBrowser {
    display: inline;
    height: 100%
 }
-
-
-/* Fine Header Inferiore */
-/* FINE HEADER */
-
-
-
-/* INIZIO MAIN */
 
 /* FINE MAIN */
 
@@ -131,60 +134,3 @@ header > .container > .lowerHeader > .buttons > .openInBrowser {
 /* INIZIO FOOTER */
 
 /* FINE FOOTER */
-
-
-
-
-/* INIZIO DEBUG */
-
-.debug #logo,
-.debug nav,
-.debug .login-btn {
-   /* border: 1px solid red; */
-   display: inline-block;
-   text-align: center;
-   vertical-align: middle;
-}
-
-.debug ul {
-   list-style: none;
-}
-
-.debug ul li {
-   display: inline;
-   padding: 0 20px
-}
-
-.debug #logo,
-.debug .login-btn {
-   width: calc(100% / 6 - 5px);
-   /* float: left; */
-}
-
-.debug nav {
-   width: calc(100% / 6 * 4);
-   /* float: left; */
-}
-
-
-.upperHeader {
-   height: 100px;
-   line-height: 100px;
-}
-/* .debug .upperHeader::after {
-content: ''; 
-display: table;
-clear: both;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
