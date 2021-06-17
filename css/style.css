@@ -49,20 +49,20 @@ body {
 }
 
 .grey {
-   background-color: rgb(230, 230, 230);
+   background-color: rgb(242, 242, 242);
 }
 
 .wave {
    background-image: url(../img/wave.svg);
    height: 100px;
-   filter: opacity(0.1)
+   filter: opacity(0.05)
 }
-   /* TODO: Trovare il modo di renderla bianca */
+
 .whiteWave {
-   background-color: white;
-   border: 5px solid red;
+   background-image: url(../img/wave.svg);
    height: 100px;
-   filter: opacity(0.1)
+   filter: opacity(0.05);
+   transform: rotate(180deg)
 }
 /* FINE COMMON */
 
