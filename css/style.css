@@ -6,15 +6,30 @@ box-sizing: border-box;
 
 /* INIZIO COMMON */
 
+body {
+   font-family: Whitney, 'Helvetica Neue', sans-serif;
+}
+
+header {
+   background-image: url("../img/jumbo.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+}
 /* FINE COMMON */
+
+
 
 /* INIZIO HEADER */
 
 /* FINE HEADER */
 
+
+
 /* INIZIO MAIN */
 
 /* FINE MAIN */
+
+
 
 /* INIZIO FOOTER */
 
@@ -25,4 +40,12 @@ box-sizing: border-box;
 
 /* INIZIO DEBUG */
 
-/* FINE DEBUG */
+
+
+
+
+
+
+
+
+
