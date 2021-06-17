@@ -44,8 +44,8 @@ body {
 }
 
 .rnd-smaller {
-   padding: 5px 10px;
-   font-size: 8px;
+   padding: 10px 15px;
+   font-size: 10px;
 }
 
 .grey {
@@ -69,10 +69,14 @@ body {
 
 
 /* INIZIO HEADER */
+
+/* TODO: FARE IN MODO CHE NON SI PERDA L'ALTEZZA DI .mainBanner a causa di posiotion:fixed */
+
 header {
    background: #255EE9;
    position: fixed;
-   width: 100vw
+   width: 100vw;
+   height: 100px;
 }
 
 .wrapper {
@@ -92,7 +96,11 @@ header > .container > .wrapper > .login-btn {
 }
 
 header .login-btn {
-   line-height: 40px
+   line-height: 40px;
+}
+
+header .login-btn a {
+   font-size: 14px;
 }
 
 header #logo,
@@ -119,7 +127,7 @@ header > .container > .wrapper > nav > ul > li {
 header > .container > .wrapper > nav > ul > li > a {
    color: white;
    text-decoration: none;
-   padding: 0 15px;
+   padding: 0 25px;
 }
 /* FINE HEADER */
 
@@ -310,7 +318,7 @@ footer .foot {
 }
 
 footer .foot img {
-   height: 20px;
+   height: 30px;
    float: left;
 }
 
