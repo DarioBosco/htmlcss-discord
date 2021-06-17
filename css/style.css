@@ -50,10 +50,6 @@ header {
 header > .container > .wrapper > #logo,
 header > .container > .wrapper > nav,
 header > .container > .wrapper > .login-btn {
-   /* display: inline-block;
-   text-align: center;
-   vertical-align: top;
-   line-height: 50px; */
    float: left;
    text-align: center;
    margin-top: 20px;
@@ -141,24 +137,36 @@ main .mainBanner > .buttons > .openInBrowser {
 .mainContent > .container > .mainInfos.top > img {
    float: left;
    width: 50%;
-   border: 3px solid red
 } 
 
 .mainContent > .container > .mainInfos.top > .text {
    float: left;
    width: 50%;
-   border: 3px solid red
 } 
-
-.mainContent > .container >.mainInfos.top{
-   background-color: #255EE9;
+.mainContent > .container > .mainInfos.top > .text > h2 {
+   font-size: 30px;
+   padding: 0 0 25px 50px;
+   width:60%;
 }
 
-.mainContent > .container >.mainInfos.top::after {
-   content: ''; 
-   display: table;
-   clear: both;
-   }
+.mainContent > .container > .mainInfos.top > .text > p {
+   font-size: 14px;
+   padding: 0 0 25px 50px;
+   width: 60%;
+   line-height: 1.5em;
+}
+
+.mainContent > .container >.mainInfos.top{
+   padding-top: 100px;
+}
+
+
+.mainInfos::after {
+content: ''; 
+display: table;
+clear: both;
+}
+
 
 /* Fine .mainContent */
 /* FINE MAIN */
