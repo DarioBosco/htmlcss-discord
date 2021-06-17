@@ -30,6 +30,10 @@ body {
    border-radius: 30px;
    padding: 10px;
 }
+
+.rnd-bigger {
+   padding: 15px 25px
+}
 /* FINE COMMON */
 
 
@@ -115,13 +119,15 @@ main .mainBanner > p {
 }
 
 main > .mainBanner > .buttons {
-   padding: 25px 0 150px 0;
+   padding: 35px 0 140px 0;
+}
 
+main > .mainBanner > .buttons > div{
+   margin: 0 10px;
 }
 
 main .mainBanner > .buttons >.downloadClient {
    display: inline;
-
 }
 
 main .mainBanner > .buttons > .openInBrowser {
@@ -130,8 +136,31 @@ main .mainBanner > .buttons > .openInBrowser {
 }
 /* Fine mainBanner */
 
+/* Inizio .mainContent */
 
+.mainContent > .container > .mainInfos.top > img {
+   float: left;
+   width: 50%;
+   border: 3px solid red
+} 
 
+.mainContent > .container > .mainInfos.top > .text {
+   float: left;
+   width: 50%;
+   border: 3px solid red
+} 
+
+.mainContent > .container >.mainInfos.top{
+   background-color: #255EE9;
+}
+
+.mainContent > .container >.mainInfos.top::after {
+   content: ''; 
+   display: table;
+   clear: both;
+   }
+
+/* Fine .mainContent */
 /* FINE MAIN */
 
 
