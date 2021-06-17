@@ -207,18 +207,19 @@ clear: both;
 /* Fine .mainContent */
 
 .lastInfo {
-   text-align: center
+   text-align: center;
+   padding-top: 50px;
 }
 
 .lastInfo > h2 {
-   font-size: 30px;
+   font-size: 40px;
    padding-bottom: 20px
 }
 
 .lastInfo > p {
-   width: 70%;
+   width: 60%;
    margin: 0 auto;
-   font-size: 14px;   
+   font-size: 17px;   
 }
 
 .ready {
@@ -251,14 +252,14 @@ footer ul {
 
 footer ul li {
    padding: 5px 0;
-   font-size: 10px;
+   font-size: 14px;
 }
 
 footer ul > li> a{
    list-style: none;
    color: white;
    text-decoration: none;
-   font-size: 10px
+   font-size: 12px
 }
 
 footer > .container > .col {
