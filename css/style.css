@@ -20,14 +20,14 @@ body {
    color: black;
    background: white;
    border-radius: 30px;
-   padding: 15px;
+   padding: 10px;
 }
 
 .rnd-black {
    text-decoration: none;
    color: white;
    background: black;
-   border-radius: 20px;
+   border-radius: 30px;
    padding: 10px;
 }
 /* FINE COMMON */
@@ -46,7 +46,7 @@ header {
 .upperHeader {
    height: 100px;
    line-height: 100px;
-   margin-bottom: 50px;
+   margin-bottom: 20px;
 }
 
 header > .container > .upperHeader > #logo,
@@ -54,7 +54,9 @@ header > .container > .upperHeader > nav,
 header > .container > .upperHeader > .login-btn {
    display: inline-block;
    text-align: center;
-   vertical-align: middle;
+}
+#logo {
+   height: 30px
 }
 
 header #logo,
@@ -82,8 +84,40 @@ header > .container > .upperHeader > nav > ul > li > a {
    text-decoration: none;
    padding: 0 15px
 }
-
 /* Fine Header Superiore */
+
+/* Inzio Header Inferiore */
+
+header > .container > .lowerHeader {
+   color: white
+}
+
+header > .container > .lowerHeader > h1 {
+   margin-bottom: 25px;
+   font-size: 40px
+}
+
+header > .container > .lowerHeader > p {
+   line-height: 1.5em;
+}
+
+.buttons {
+   padding: 25px 0 150px 0;
+
+}
+
+header > .container > .lowerHeader > .buttons >.downloadClient {
+   display: inline;
+
+}
+
+header > .container > .lowerHeader > .buttons > .openInBrowser {
+   display: inline;
+   height: 100%
+}
+
+
+/* Fine Header Inferiore */
 /* FINE HEADER */
 
 
