@@ -95,6 +95,7 @@ header > .container > .wrapper > nav > ul > li > a {
 
 /* INIZIO MAIN */
 
+/* Inizio mainBanner */
 .mainBanner {
    background-image: url("../img/jumbo.png");
    background-size: cover;
@@ -113,7 +114,7 @@ main .mainBanner > p {
    line-height: 1.5em;
 }
 
-.buttons {
+main > .mainBanner > .buttons {
    padding: 25px 0 150px 0;
 
 }
@@ -127,6 +128,9 @@ main .mainBanner > .buttons > .openInBrowser {
    display: inline;
    height: 100%
 }
+/* Fine mainBanner */
+
+
 
 /* FINE MAIN */
 
