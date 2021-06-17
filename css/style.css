@@ -41,18 +41,26 @@ header {
 
 .wrapper {
    height: 100px;
-   line-height: 100px;
 }
 
 header > .container > .wrapper > #logo,
 header > .container > .wrapper > nav,
 header > .container > .wrapper > .login-btn {
-   display: inline-block;
+   /* display: inline-block;
    text-align: center;
    vertical-align: top;
+   line-height: 50px; */
+   float: left;
+   text-align: center;
+   margin-top: 20px;
 }
+
 #logo {
-   height: 100px
+   height: 30px;
+}
+
+header .login-btn {
+   line-height: 40px
 }
 
 header #logo,
@@ -67,26 +75,19 @@ header > .container > .wrapper > nav {
 
 header > .container > .wrapper > nav > ul {
    list-style: none;
-   line-height: 100px
 }
 
 header > .container > .wrapper > nav > ul > li {
    display: inline-block;
    color: white;
    text-decoration: none;
-   font-size: 15px;
-   height: 100px;
-   line-height: 100px;
-   vertical-align: top;
+   font-size: 14px;
 }
 
 header > .container > .wrapper > nav > ul > li > a {
    color: white;
    text-decoration: none;
    padding: 0 15px;
-   display: inline-block; 
-   vertical-align: top;
-   
 }
 /* FINE HEADER */
 
