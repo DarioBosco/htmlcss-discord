@@ -70,13 +70,16 @@ body {
 
 /* INIZIO HEADER */
 
-/* TODO: FARE IN MODO CHE NON SI PERDA L'ALTEZZA DI .mainBanner a causa di posiotion:fixed */
-
 header {
    background: #255EE9;
    position: fixed;
    width: 100vw;
    height: 100px;
+}
+
+.spacer {
+height: 100px;
+background-color: red;
 }
 
 .wrapper {
