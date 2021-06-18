@@ -177,8 +177,8 @@ main .mainBanner > .buttons > .openInBrowser {
 
 /* Inizio .mainContent */
 
-.mainContent {
-   padding-top: 100px
+.mainBanner {
+   height: 58vh
 }
 
 .mainContent .mainInfos img {
